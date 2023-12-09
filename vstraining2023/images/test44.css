@@ -1,0 +1,54 @@
+.container{
+    width: 50%;
+    height: 50vh;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.profile-box{
+    background: #ff574a;
+    text-align: center;
+    padding: 10px 10px;
+    color: #fff;
+    position: relative;
+    border-radius: 10px;
+
+}
+.menu-icon{
+    width: 50px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+
+}
+.setting-icon{
+    width: 50px;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+
+}
+.ssmyphoto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 6px; 
+    margin-top: 40px;
+}
+
+.profile-button{
+    background: #fff;
+    color: #999;
+    padding: 30px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 1px;
+    justify-content: center;
+    text-align: center;
+    
+}
+

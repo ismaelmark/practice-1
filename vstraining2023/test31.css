@@ -1,0 +1,29 @@
+.title h1,
+.title h3,
+.title h4,
+.title h5{
+    text-align: center;
+}
+
+.position-title{
+    display: flex;
+    justify-content: center;
+    background-color: #a5a4a4;
+    font-weight: bolder;
+}
+.position-title h4{
+    text-transform: uppercase;
+}
+
+table,tr,td,th{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+table{
+    
+}
+
+.dashed{
+    border: 10px dashed #000;
+    
+}

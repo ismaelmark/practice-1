@@ -1,0 +1,109 @@
+.contaner{
+    width: 0px;
+    border-inline: 2px solid #333;
+    display: flex;
+    padding: 2px;
+    background: black;
+
+}
+.flex-container{
+    display: flex;
+    justify-content: flexbox;
+    align-items: center;
+    height: 0px;
+    border-inline: 2px solid #f37bcf
+
+}
+#star-five {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: rgb(216, 241, 125);
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid rgb(154, 207, 228);
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+}
+#star-five:before {
+    border-bottom: 80px solid rgb(20, 250, 143);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+#star-five:after {
+    position: absolute;
+    display: block;
+    color: rgb(135, 158, 31);
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid rgb(156, 26, 189);
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+}
+.star{
+    margin-top: 2rem;
+    } 
+    .flex-container{
+        -ms-flex-align:  center;
+        text-justify: center;
+    }
+    .conrtainer{
+        padding: 2px;
+        width: 100%;
+        display: flexbox;
+        background-color: rgb(187, 162, 211)
+    }
+    .header{
+        width: 100%;
+        height: 100px;
+        background-color:rgb(47, 148, 206);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .body-container{
+        display: flex;
+        height: 300px;
+        background-color:blue;
+    }
+    .left-side{
+        width: 50%;
+        background-color: cornflowerblue;
+    }
+    .right-side{
+        width: 50%;
+         /* display: flex;
+        justify-content: center; */
+    }
+    .right-side h1{
+        width: 100%;
+        text-align: center;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: aqua;
+    }
+    li{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    li a{
+        font-size: 10px;
+    }
+        

@@ -1,0 +1,18 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    
+    
+}
+  
+  @keyframes circleRight {
+    0% {
+      transform: flip(-2000deg);
+    }
+    50%,
+    100% {
+      transform: flip(2000deg);
+    }
+  }

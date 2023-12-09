@@ -1,0 +1,313 @@
+{
+    "election_date": "May 9, 2022",
+    "President": {
+        "position": "President",
+        "candidates": [
+            {
+                "candidate_id": "P001",
+                "candidate_name": "John Smith",
+                "candidate_party": "Independent",
+                "party_logo": "https://example.com/independent_logo.png"
+            },
+            {
+                "candidate_id": "P002",
+                "candidate_name": "Jane Doe",
+                "candidate_party": "Liberty Party",
+                "party_logo": "https://example.com/liberty_party_logo.png"
+            },
+            {
+                "candidate_id": "P003",
+                "candidate_name": "Michael Johnson",
+                "candidate_party": "Progressive Alliance",
+                "party_logo": "https://example.com/progressive_alliance_logo.png"
+            }
+        ]
+    },
+    "Vice_President": {
+        "position": "Vice President",
+        "candidates": [
+            {
+                "candidate_id": "VP001",
+                "candidate_name": "Emily Williams",
+                "candidate_party": "Democratic Party",
+                "party_logo": "https://example.com/democratic_party_logo.png"
+            },
+            {
+                "candidate_id": "VP002",
+                "candidate_name": "Robert Lee",
+                "candidate_party": "Conservative Party",
+                "party_logo": "https://example.com/conservative_party_logo.png"
+            },
+            {
+                "candidate_id": "VP003",
+                "candidate_name": "Sarah Brown",
+                "candidate_party": "Green Party",
+                "party_logo": "https://example.com/green_party_logo.png"
+            }
+        ]
+    },
+    "Senator": {
+        "position": "Senator",
+        "candidates": [
+            {
+                "candidate_id": "S001",
+                "candidate_name": "Thomas Anderson",
+                "candidate_party": "Democratic Party",
+                "party_logo": "https://example.com/democratic_party_logo.png"
+            },
+            {
+                "candidate_id": "S002",
+                "candidate_name": "Jennifer Garcia",
+                "candidate_party": "Liberty Party",
+                "party_logo": "https://example.com/liberty_party_logo.png"
+            },
+            {
+                "candidate_id": "S003",
+                "candidate_name": "Charles Martinez",
+                "candidate_party": "Conservative Party",
+                "party_logo": "https://example.com/conservative_party_logo.png"
+            },
+            {
+                "candidate_id": "S004",
+                "candidate_name": "Elizabeth Nguyen",
+                "candidate_party": "Green Party",
+                "party_logo": "https://example.com/green_party_logo.png"
+            },
+            {
+                "candidate_id": "S001",
+                "candidate_name": "John Smith",
+                "candidate_party": "Liberty Party",
+                "party_logo": "https://example.com/liberty_party_logo.png"
+            },
+            {
+                "candidate_id": "S002",
+                "candidate_name": "Jane Doe",
+                "candidate_party": "Democratic Party",
+                "party_logo": "https://example.com/democratic_party_logo.png"
+            },
+            {
+                "candidate_id": "S003",
+                "candidate_name": "Michael Johnson",
+                "candidate_party": "Progressive Alliance",
+                "party_logo": "https://example.com/progressive_alliance_logo.png"
+            },
+            {
+                "candidate_id": "S004",
+                "candidate_name": "Sarah Brown",
+                "candidate_party": "Conservative Party",
+                "party_logo": "https://example.com/conservative_party_logo.png"
+            },
+            {
+                "candidate_id": "S005",
+                "candidate_name": "Robert Lee",
+                "candidate_party": "Green Party",
+                "party_logo": "https://example.com/green_party_logo.png"
+            },
+            {
+                "candidate_id": "S006",
+                "candidate_name": "Emily Williams",
+                "candidate_party": "Independent",
+                "party_logo": "https://example.com/independent_logo.png"
+            },
+            {
+                "candidate_id": "S007",
+                "candidate_name": "David Johnson",
+                "candidate_party": "Liberty Party",
+                "party_logo": "https://example.com/liberty_party_logo.png"
+            },
+            {
+                "candidate_id": "S008",
+                "candidate_name": "Maria Martinez",
+                "candidate_party": "Democratic Party",
+                "party_logo": "https://example.com/democratic_party_logo.png"
+            },
+            {
+                "candidate_id": "S009",
+                "candidate_name": "Thomas Anderson",
+                "candidate_party": "Progressive Alliance",
+                "party_logo": "https://example.com/progressive_alliance_logo.png"
+            },
+            {
+                "candidate_id": "S010",
+                "candidate_name": "Jennifer Garcia",
+                "candidate_party": "Conservative Party",
+                "party_logo": "https://example.com/conservative_party_logo.png"
+            }
+        ]
+    },
+    "Member_of_Congress": {
+        "position": "Member of Congress",
+        "District_1": {
+            "candidates": [
+                {
+                    "candidate_id": "MC001",
+                    "candidate_name": "Daniel Thompson",
+                    "candidate_party": "Liberty Party",
+                    "party_logo": "https://example.com/liberty_party_logo.png"
+                },
+                {
+                    "candidate_id": "MC002",
+                    "candidate_name": "Laura Adams",
+                    "candidate_party": "Democratic Party",
+                    "party_logo": "https://example.com/democratic_party_logo.png"
+                }
+            ]
+        },
+        "District_2": {
+            "candidates": [
+                {
+                    "candidate_id": "MC003",
+                    "candidate_name": "Kevin Robinson",
+                    "candidate_party": "Progressive Alliance",
+                    "party_logo": "https://example.com/progressive_alliance_logo.png"
+                },
+                {
+                    "candidate_id": "MC004",
+                    "candidate_name": "Patricia Hughes",
+                    "candidate_party": "Conservative Party",
+                    "party_logo": "https://example.com/conservative_party_logo.png"
+                }
+            ]
+        }
+    },
+    "Governor": {
+        "position": "Governor",
+        "candidates": [
+            {
+                "candidate_id": "G001",
+                "candidate_name": "William Clark",
+                "candidate_party": "Conservative Party",
+                "party_logo": "https://example.com/conservative_party_logo.png"
+            },
+            {
+                "candidate_id": "G002",
+                "candidate_name": "Michelle Ramirez",
+                "candidate_party": "Progressive Alliance",
+                "party_logo": "https://example.com/progressive_alliance_logo.png"
+            },
+            {
+                "candidate_id": "G003",
+                "candidate_name": "Kimberly Turner",
+                "candidate_party": "Liberty Party",
+                "party_logo": "https://example.com/liberty_party_logo.png"
+            }
+        ]
+    },
+    "Mayor": {
+        "position": "Mayor",
+        "candidates": [
+            {
+                "candidate_id": "M001",
+                "candidate_name": "Richard Martinez",
+                "candidate_party": "Conservative Party",
+                "party_logo": "https://example.com/conservative_party_logo.png"
+            },
+            {
+                "candidate_id": "M002",
+                "candidate_name": "Susan Johnson",
+                "candidate_party": "Liberty Party",
+                "party_logo": "https://example.com/liberty_party_logo.png"
+            },
+            {
+                "candidate_id": "M003",
+                "candidate_name": "David Lee",
+                "candidate_party": "Progressive Alliance",
+                "party_logo": "https://example.com/progressive_alliance_logo.png"
+            }
+        ]
+    },
+    "Vice_Mayor": {
+        "position": "Vice Mayor",
+        "candidates": [
+            {
+                "candidate_id": "VM001",
+                "candidate_name": "Emily Williams",
+                "candidate_party": "Democratic Party",
+                "party_logo": "https://example.com/democratic_party_logo.png"
+            },
+            {
+                "candidate_id": "VM002",
+                "candidate_name": "Robert Lee",
+                "candidate_party": "Conservative Party",
+                "party_logo": "https://example.com/conservative_party_logo.png"
+            },
+            {
+                "candidate_id": "VM003",
+                "candidate_name": "Sarah Brown",
+                "candidate_party": "Green Party",
+                "party_logo": "https://example.com/green_party_logo.png"
+            }
+        ]
+    },
+    "City_Councilor": {
+        "position": "City Councilor",
+        "City_A": {
+            "candidates": [
+                {
+                    "candidate_id": "CC001",
+                    "candidate_name": "Michael Scott",
+                    "candidate_party": "Democratic Party",
+                    "party_logo": "https://example.com/democratic_party_logo.png"
+                },
+                {
+                    "candidate_id": "CC002",
+                    "candidate_name": "Lisa Adams",
+                    "candidate_party": "Liberty Party",
+                    "party_logo": "https://example.com/liberty_party_logo.png"
+                },
+                {
+                    "candidate_id": "CC003",
+                    "candidate_name": "Jennifer White",
+                    "candidate_party": "Green Party",
+                    "party_logo": "https://example.com/green_party_logo.png"
+                },
+                {
+                    "candidate_id": "CC004",
+                    "candidate_name": "Matthew Davis",
+                    "candidate_party": "Conservative Party",
+                    "party_logo": "https://example.com/conservative_party_logo.png"
+                },
+                {
+                    "candidate_id": "CC005",
+                    "candidate_name": "Samantha Wilson",
+                    "candidate_party": "Independent",
+                    "party_logo": "https://example.com/independent_logo.png"
+                }
+            ]
+        },
+        "City_B": {
+            "candidates": [
+                {
+                    "candidate_id": "CC006",
+                    "candidate_name": "John Green",
+                    "candidate_party": "Liberty Party",
+                    "party_logo": "https://example.com/liberty_party_logo.png"
+                },
+                {
+                    "candidate_id": "CC007",
+                    "candidate_name": "Robert Turner",
+                    "candidate_party": "Progressive Alliance",
+                    "party_logo": "https://example.com/progressive_alliance_logo.png"
+                },
+                {
+                    "candidate_id": "CC008",
+                    "candidate_name": "Emily Clark",
+                    "candidate_party": "Democratic Party",
+                    "party_logo": "https://example.com/democratic_party_logo.png"
+                },
+                {
+                    "candidate_id": "CC009",
+                    "candidate_name": "Michael Harris",
+                    "candidate_party": "Conservative Party",
+                    "party_logo": "https://example.com/conservative_party_logo.png"
+                },
+                {
+                    "candidate_id": "CC010",
+                    "candidate_name": "Laura Martinez",
+                    "candidate_party": "Green Party",
+                    "party_logo": "https://example.com/green_party_logo.png"
+                }
+            ]
+        }
+    }
+}

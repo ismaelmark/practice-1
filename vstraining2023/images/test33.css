@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.dashed{
+    background-image: url("Screenshot 2023-07-31 092039 landscspe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.images-container{
+    display: flex;
+    padding: 2rem;
+}
+/**/
+.text-container{
+    padding: 10px;
+    box-sizing: border-box;
+   
+}
+.footer{
+    width: 30;
+    padding: 10;
+    box-sizing: border-box;
+    float:inline-end;
+    justify-content: flex-end;
+}
+
+
+    
+

@@ -1,0 +1,12 @@
+body {
+    background-image: url("ss212513.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: rgb(199, 197, 197);
+
+}
+.image-gamut-fix{
+    filter: saturate(0.5);
+    
+}
+

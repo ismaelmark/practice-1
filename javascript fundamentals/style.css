@@ -1,0 +1,111 @@
+.body-container{
+    padding: 20px;
+    width: 10%;
+    height: 20em;
+    justify-content: flex;
+}
+.box{
+    padding: 2rem;
+    min-width: 10px;
+    min-height: 20px;
+    border: 1px solid #000  
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20rem;
+    border: 2px solid #ccc;
+
+}    
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    margin-bottom: 30px;
+}
+.h-20{
+    height: 10rem;
+}
+.table{
+    width: 700px;
+}
+
+table, tr, td, th{
+    border: 1px solid #000;
+
+    border-collapse: collapse;
+
+}
+.center {
+    text-align: center;
+}
+    
+tr, td{
+    height: 20px!important;
+}
+.underline{
+    text-decoration: underline;
+}
+#star-five {
+    margin: 50px 0;
+    position: relative ,accompanied by;
+    display: block;
+    color: rgb(17, 60, 100);
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid rgb(18, 91, 119);
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+}
+#star-five:before {
+    border-bottom: 80px solid rgb(15, 134, 79);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+    
+}
+#star-five:after {
+    position: absolute;
+    display: block;
+    color: rgb(135, 158, 31);
+    top: 3px;
+    left: -105px;
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid rgb(156, 26, 189);
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+    
+}
+table{
+        width: 700px; 
+    }
+
+    table, tr, td, th{
+        border: 1px solid #000;
+        border-collapse: collapse;
+
+    }
+    .center {
+        text-align: center;
+
+    }
+    
+    tr, td{
+        height: 20px!important;
+    }
+    .underline{
+        text-decoration: underline;
+    }

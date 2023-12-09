@@ -1,0 +1,175 @@
+.star-hypoo {
+    width: 100px;
+    height: calc(100px * 0.866);
+    margin-left: 150px;
+    color: yellow;
+    display: grid;
+    background: linear-gradient(
+        to bottom left,
+        #050000 calc(50% - 1px),
+        currentColor 0 calc(50% + 1px),
+        #030303 0
+    )
+    right/50% 100%,
+    linear-gradient(
+        to bottom right,
+        #050505 calc(50% - 1px),
+        currentColor 0 calc(50% + 1px),
+        #000 0
+    )
+    left / 50% 100%,
+    linear-gradient(currentColor 0 0)
+    bottom/100% 2px;
+    background-repeat: no-repeat;
+    transform-origin: 50% 66%;
+    animation: h5 4s infinite linear;
+}
+.staR-hypo::before
+.staR-hypo::after {
+    content: "";
+    grid-area: 1/1;
+    background: inherit;
+    transform-origin: inherit;
+    animation: inherit;
+}
+.staR-hypo::after {
+    animation-duration: 2s; 
+}
+@keyframes h5 {
+    100% {
+  transform: rotate(1turn);
+    }
+}
+
+.body {
+    background: #333;
+}
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 2rem;
+    margin-top: 12%; 
+}
+.box {
+    background: grey;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: boxanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+@keyframes boxanimation {
+    from{
+        left: 0;
+        background-color: green;
+        transform: rotate(odeg);
+    }
+    25%{
+        left: 0;
+        background-color: yellow;
+        transform: rotate(0deg);
+    }
+    50%{
+        left: 1200px;
+        background-color: aqua;
+        transform: rotate(0d3g);
+    }
+    55%{
+        left: 1200px;
+        background-color: orangered;
+        transform: rotate(0deg);
+    }
+    75%{
+        left: 1200px;
+        background-color: violet;
+        transform: rotate(0deg);
+    }
+    to{
+        left: 500px;
+        background-color: red;
+        transform: rotate(0deg);
+    }
+    75%{
+        left: 1200px;
+        background-color: orchid;
+        transform: rotate(0deg);
+    }
+    100%{
+        left: 0;
+        background-color: crimson;
+        transform: rotate(-360deg);
+    }
+}
+.body {
+    background: #080808;
+}
+.container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-left: 2rem;
+    margin-top: 12%; 
+}
+.box {
+    background: gray;
+    width: 200px;
+    height: 200px;
+    position:relative;
+    animation-name: boxanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+
+}
+@keyframes boxanimation {
+    from{
+       left: 0;
+        background-color: green;
+        transform: rotate(odeg);
+    }
+    25%{
+       left: 0;
+        background-color: yellow;
+        transform: rotate(0deg);
+    }
+    50%{
+       left: 1200px;
+        background-color: aqua;
+        transform: rotate(0d3g);
+    }
+    55%{
+        left: 1200px;
+        background-color: orangered;
+        transform: rotate(0deg);
+    }
+    75%{
+       left: 1200px;
+        background-color: violet;
+        transform: rotate(0deg);
+    }
+    to{
+      left: 500px;
+        background-color: red;
+        transform: rotate(0deg);
+    }
+    75%{
+        right: 1200px;
+        background-color: orchid;
+        transform: rotate(0deg);
+    }
+    100%{
+        left: 0;
+        background-color: crimson;
+        transform: rotate(-360deg);
+    }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+         .body-container{
+            padding: 20px;
+            width: 10%;
+            height: 20em;
+            justify-content: flex;
+        }
+        .box{
+            padding: 2rem;
+            min-width: 10px;
+            min-height: 20px;
+            border: 1px solid #000  
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 20rem;
+            border: 2px solid #ccc;
+
+       }    
+       .flex-item{
+            width: 100px;
+            height: 100px;
+            background-color: #f0f0f0;
+            border: 1px solid #999;
+            margin-bottom: 30px;
+        }
+       .h-20{
+            height: 10rem;
+       }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <div class="container mt-4 d-flex justify-content flex-column">
+            <div class="d-flex w-full mt-3">
+                <div class="box d-inline h-20">left container</div>
+                <div class="box d-inline align-self-baseline">baseline container</div>
+                <div class="box d-inline h-20">right container</div>
+            </div>
+            <div class="d-flex w-full mt-3">
+                <div class="box d-inline h-20">left container</div>
+                <div class="box d-inline align-self-end">end container</div>
+                <div class="box d-inline h-20">right container</div>
+            </div>
+            <div class="d-flex w-full mt-3">
+                <div class="box d-inline h-20">left container</div>
+                <div class="box d-inline align-self-start">start container</div>
+                <div class="box d-inline h-20">right container</div>
+            </div>
+            <div class="d-flex w-full mt-3">
+                <div class="box d-inline h-20">left container</div>
+                <div class="box d-inline align-self-center">center container</div>
+                <div class="box d-inline h-20">right container</div>
+            </div> 
+            <div class="d-flex w-full mt-3">  
+                <div class="box d-inline h-20">left container</div>
+                <div class="box d-inline align-self-stretch">stretch container</div>  
+                <div class="box d-inline h-20">right container</div>   
+            
+        </div>
+    </div>
+</body>
+</html>

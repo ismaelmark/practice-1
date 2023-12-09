@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.dashed{
+    background-image: url("bgimg.png");
+    background-size: cover;
+}   
+
+   
+.images-container{
+    display: flex;
+    padding: 2rem;
+}
+/**/
+.text-container{
+    padding: 10px;
+    box-sizing: border-box;
+   
+}
+nav{
+    background-color: #efac2f;
+    border-bottom: 1px solid #0f8a38;
+}
+a:hover{
+    background-color: #baf80f;
+    color: #baf80f;
+}
+a:focus{
+    color: yellow;
+}
+.text-container{
+    justify-content: center;
+    content: center;
+    display: text column;
+}

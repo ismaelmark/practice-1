@@ -1,0 +1,34 @@
+.title h1,
+.title h3,
+.title h4,
+.title h5{
+   text-align: center;
+}
+.position-title{
+    display: flex;
+    justify-content: center;
+    background-color: #a5a4a4;
+    font-weight: bolder;
+}
+.position-title h4{/*  */
+    text-transform: uppercase;
+}
+
+    
+
+.dashed{
+    border: 10px dashed #000;
+    
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+    right: 4rem;
+    top: 5rem;
+    
+}
+
+.logo img{
+    border-radius: 50%;
+}
